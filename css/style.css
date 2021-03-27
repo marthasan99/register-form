@@ -57,25 +57,32 @@
 }
 .line1{
 	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+
 }
 .line2{
 	margin-bottom: 20px;
 }
 .fname input{
-	width: 100%;
+	width: 90%;
 	padding: 10px;
 }
 .fname{
 	display: inline-block;
+	flex-basis: 50%;
+	margin: 10px;
 }
 .fname label{
 	display: block;
 }
 .lname{
 	display: inline-block;
+	flex-basis: 50%;
+	margin: 10px;
 }
 .lname input{
-	width: 100%;
+	width: 90%;
 	padding: 10px;
 }
 .lname label{
@@ -93,20 +100,31 @@
 .lname input{
 	display: inline;
 }
+.line2{
+	margin: 10px;
+}
 .line2 input{
-	width: 88%;
+	width: 95%;
 	padding: 10px;
 }
 .line3 input{
 	display: block;
-	width: 100%;
+	width: 90%;
 	padding: 10px;
+}
+.line3{
+	display: flex;
+	justify-content: space-between;
 }
 .pass{
 	display: inline-block;
+	flex-basis: 50%;
+	margin: 10px;
 }
 .cpass{
 	display: inline-block;
+	flex-basis: 50%;
+	margin: 10px;
 }
 .chkbox{
 	margin-left: 5px;
